@@ -41,7 +41,7 @@ void solve() {
     forn (i, c) {cin >> k; cv.pb(mp(k, i));}
     sort(all(tv));
     sort(all(cv));
-    forn(i, c) cout << cv[i].fi << " " << cv[i].se << ln;
+    //forn(i, c) cout << cv[i].fi << " " << cv[i].se << ln;
     ll idx = t - 1;
     rforsn (i, c - 1, 0) {
         //cout << i << " " << idx << " " << c << ln;
